@@ -1,7 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="CargoProjects">
+    <cargoProject FILE="$PROJECT_DIR$/hello_world/Cargo.toml" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="38600098-eaf5-4512-b92e-878bda983002" name="Default Changelist" comment="" />
+    <list default="true" id="38600098-eaf5-4512-b92e-878bda983002" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/rust.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/rust.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello_world/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/hello_world/src/main.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello_world/target/debug/deps/hello_world-4e59f6e5894fbcdd" beforeDir="false" afterPath="$PROJECT_DIR$/hello_world/target/debug/deps/hello_world-4e59f6e5894fbcdd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello_world/target/debug/deps/hello_world-4e59f6e5894fbcdd.dSYM/Contents/Resources/DWARF/hello_world-4e59f6e5894fbcdd" beforeDir="false" afterPath="$PROJECT_DIR$/hello_world/target/debug/deps/hello_world-4e59f6e5894fbcdd.dSYM/Contents/Resources/DWARF/hello_world-4e59f6e5894fbcdd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello_world/target/debug/hello_world" beforeDir="false" afterPath="$PROJECT_DIR$/hello_world/target/debug/hello_world" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello_world/target/debug/incremental/hello_world-1nmf4pk2iu4ko/s-fq61fa5h2n-14cv2kr-2a2jr2kaf1pjn/1p41zzwb5c724d7v.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello_world/target/debug/incremental/hello_world-1nmf4pk2iu4ko/s-fq61fa5h2n-14cv2kr-2a2jr2kaf1pjn/3vghq0es65wc1n15.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello_world/target/debug/incremental/hello_world-1nmf4pk2iu4ko/s-fq61fa5h2n-14cv2kr-2a2jr2kaf1pjn/3yvtjre84y7gkntd.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello_world/target/debug/incremental/hello_world-1nmf4pk2iu4ko/s-fq61fa5h2n-14cv2kr-2a2jr2kaf1pjn/4jl2w1v4ts9pfiyo.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello_world/target/debug/incremental/hello_world-1nmf4pk2iu4ko/s-fq61fa5h2n-14cv2kr-2a2jr2kaf1pjn/4nprf2q4zn1muiif.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello_world/target/debug/incremental/hello_world-1nmf4pk2iu4ko/s-fq61fa5h2n-14cv2kr-2a2jr2kaf1pjn/58rl9wq2hnvx4hd0.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello_world/target/debug/incremental/hello_world-1nmf4pk2iu4ko/s-fq61fa5h2n-14cv2kr-2a2jr2kaf1pjn/dep-graph.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello_world/target/debug/incremental/hello_world-1nmf4pk2iu4ko/s-fq61fa5h2n-14cv2kr-2a2jr2kaf1pjn/query-cache.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello_world/target/debug/incremental/hello_world-1nmf4pk2iu4ko/s-fq61fa5h2n-14cv2kr-2a2jr2kaf1pjn/work-products.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello_world/target/debug/incremental/hello_world-1nmf4pk2iu4ko/s-fq61fa5h2n-14cv2kr.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,10 +47,38 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JAVA" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="org.rust.cargo.project.model.PROJECT_DISCOVERY" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="pwd" />
+      <command value="git add ." />
+      <command value="git commit -a -m &quot;init project&quot;" />
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Run hello_world" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="channel" value="DEFAULT" />
+      <option name="command" value="run --package hello_world --bin hello_world" />
+      <option name="allFeatures" value="false" />
+      <option name="emulateTerminal" value="false" />
+      <option name="backtrace" value="SHORT" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$/hello_world" />
+      <envs />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Cargo Command.Run hello_world" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="RustProjectSettings">
     <option name="toolchainHomeDirectory" value="$USER_HOME$/.cargo/bin" />
@@ -46,9 +95,29 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state width="1440" height="330" key="GridCell.Tab.0.bottom" timestamp="1597483192276">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1440" height="330" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1597483192276" />
+    <state width="1440" height="330" key="GridCell.Tab.0.center" timestamp="1597483192274">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1440" height="330" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1597483192274" />
+    <state width="1440" height="330" key="GridCell.Tab.0.left" timestamp="1597483192273">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1440" height="330" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1597483192273" />
+    <state width="1440" height="330" key="GridCell.Tab.0.right" timestamp="1597483192275">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1440" height="330" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1597483192275" />
     <state x="221" y="89" key="SettingsEditor" timestamp="1597479029565">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="221" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1597479029565" />
+    <state x="385" y="210" width="670" height="675" key="run.anything.popup" timestamp="1597479161775">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="385" y="210" width="670" height="675" key="run.anything.popup/0.0.1440.900@0.0.1440.900" timestamp="1597479161775" />
   </component>
 </project>
